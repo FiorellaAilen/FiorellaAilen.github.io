@@ -2,7 +2,7 @@ body {
     background-color: rgb(27, 145, 181);
     background-image: url(img/01.png);
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom center;
 
 }
 
@@ -11,9 +11,34 @@ h1 {
     background-image: url(img/estrellitas_2.png);
     background-size: 50px;
     text-align: center;
+    font-family: 'Playfair Display', serif;
+
 }
 
-p{
-    text-align: left;
-    
+
+
+.header {
+    text-align: center;
+
+}
+
+.alfa {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 41px;
+    background: rgb(22, 131, 100);
+    font-size: 25px;
+    font-family: 'Playfair Display', serif;
+    padding-left: 10%;
+    padding-right: 10%;   
+    margin-bottom: 5px;
+
+}
+
+.alfa > a {
+    color: black;
+    font-weight: bold;
+
 }
