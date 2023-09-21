@@ -22,7 +22,7 @@ h1 {
 
 }
 
-.alfa {
+.cont {
     position: relative;
     display: flex;
     justify-content: space-between;
@@ -37,8 +37,14 @@ h1 {
 
 }
 
-.alfa > a {
+.cont > a {
     color: black;
     font-weight: bold;
 
 }
+
+@media screen and (min-width: 1400px ){
+    body{
+        background-color: coral;
+    }
+} 
