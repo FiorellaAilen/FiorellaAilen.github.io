@@ -16,8 +16,6 @@ h1 {
 
 }
 
-
-
 .header {
     text-align: center;
 
@@ -33,19 +31,24 @@ h1 {
     font-size: 25px;
     font-family: 'Playfair Display', serif;
     padding-left: 10%;
-    padding-right: 10%;   
+    padding-right: 10%;
     margin-bottom: 5px;
 
 }
 
-.cont > a {
+.cont>a {
     color: black;
     font-weight: bold;
 
 }
 
-@media screen and (min-width: 1400px ){
-    body{
+@media screen and (min-width: 1400px) {
+    body {
         background-color: coral;
     }
-} 
+}
+
+/*tbanner{
+    
+}*/
+
