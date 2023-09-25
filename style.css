@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: 'Playfair Display', serif;
     font-family: 'Raleway', sans-serif;
-    color: #FFFFFF;
+    color: #FFFFFF;    
 }
 
 .container {
@@ -23,7 +23,7 @@ body {
 
 h1 {
     color: cornflowerblue;
-    background-image: url(img/estrellitas_2.png);
+    /*background-image: url(img/estrellitas_2.png);*/
     background-size: 50px;
     text-align: center;
     font-family: 'Playfair Display', serif;
@@ -64,6 +64,8 @@ h1 {
     }
 }
 
-/*tbanner{
-    
-}*/
+.form{
+    padding: 100;
+    margin: 50;
+    box-sizing: border-box;
+}
