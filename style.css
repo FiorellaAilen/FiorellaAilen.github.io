@@ -74,8 +74,9 @@ h1 {
     background-repeat: no-repeat;
     background-size: cover;
     padding: 50px;
-    width: 1000px;
-    border-radius: 25px
+    width: 1000px;    
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
 }
 
 .form-content h2 {
@@ -114,7 +115,8 @@ textarea {
     color: black;
     font-weight: bold;
     margin-bottom: 20px;
-    border-radius: 10px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
 }
 
 :focus {
