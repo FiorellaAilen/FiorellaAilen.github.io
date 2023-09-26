@@ -31,15 +31,17 @@ h1 {
     padding: 10px;
 
 }
-h2{
+
+h2 {
     background-size: 50px;
     text-align: center;
     margin: 10px;
     padding: 20px;
+
 }
 
 .header {
-    text-align: center;    
+    text-align: center;
 
 }
 
@@ -51,6 +53,7 @@ h2{
     margin-bottom: 15px;
 
 }
+
 /*
 .banner-bottom{
     background-image: url(img/Banner_bottom.png);
@@ -70,7 +73,7 @@ h2{
     font-family: 'Playfair Display', serif;
     padding-left: 10%;
     padding-right: 10%;
-    margin-bottom: 5px;    
+    margin-bottom: 5px;
 
 }
 
@@ -79,13 +82,13 @@ h2{
     font-weight: bold;
     font-family: 'Playfair Display', serif;
     text-decoration: none;
-     
+
 }
 
 .pag:hover {
-      color: #000000; 
-      cursor: pointer;
-      text-decoration: underline;
+    color: #000000;
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 
