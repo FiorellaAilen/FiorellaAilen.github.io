@@ -21,18 +21,29 @@ body {
     padding-bottom: 5%;
 }
 
+
 h1 {
-    color: cornflowerblue;
-    /*background-image: url(img/estrellitas_2.png);*/
+    color: rgb(255, 255, 255);
     background-size: 50px;
     text-align: center;
     font-family: 'Playfair Display', serif;
-    background-color: black;
+    margin: 0;
+    padding: 10px;
 
 }
 
+
 .header {
     text-align: center;
+
+}
+
+.banner-top {
+    background-image: url(img/Banner_Top.png);
+    background-size: cover;
+    background-position: top;
+    padding-bottom: 50px;
+    margin-bottom: 15px;
 
 }
 
@@ -42,7 +53,6 @@ h1 {
     justify-content: space-between;
     align-items: center;
     height: 41px;
-    background: rgb(22, 131, 100);
     font-size: 25px;
     font-family: 'Playfair Display', serif;
     padding-left: 10%;
@@ -62,6 +72,8 @@ h1 {
     body {
         background-color: rgb(173, 15, 178);
     }
+
+
 }
 
 .form-content {
@@ -74,7 +86,7 @@ h1 {
     background-repeat: no-repeat;
     background-size: cover;
     padding: 50px;
-    width: 1000px;    
+    width: 1000px;
     border-bottom-left-radius: 25px;
     border-top-right-radius: 25px;
 }
