@@ -37,7 +37,7 @@ h1 {
     text-align: center;
 
 }
-
+/*
 .banner-top {
     background-image: url(img/Banner_Top.png);
     background-size: cover;
@@ -46,6 +46,14 @@ h1 {
     margin-bottom: 15px;
 
 }
+
+.banner-bottom{
+    background-image: url(img/Banner_bottom.png);
+    background-size: cover;
+    background-position: bottom;
+    padding-top: 50px;
+    margin-top: 15px;
+}*/
 
 .cont {
     position: relative;
