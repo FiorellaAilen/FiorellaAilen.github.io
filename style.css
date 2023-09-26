@@ -32,9 +32,8 @@ h1 {
 
 }
 
-
 .header {
-    text-align: center;
+    text-align: center;    
 
 }
 
@@ -65,16 +64,25 @@ h1 {
     font-family: 'Playfair Display', serif;
     padding-left: 10%;
     padding-right: 10%;
-    margin-bottom: 5px;
+    margin-bottom: 5px;    
 
 }
 
 .cont>a {
-    color: black;
+    color: #FFFFFF;
     font-weight: bold;
     font-family: 'Playfair Display', serif;
-
+    text-decoration: none;
+     
 }
+
+.pag:hover {
+      color: #000000; 
+      cursor: pointer;
+      text-decoration: underline;
+}
+
+
 
 @media screen and (min-width: 1400px) {
     body {
