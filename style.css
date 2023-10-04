@@ -21,15 +21,12 @@ body {
     padding-bottom: 5%;
 }
 
-
 h1 {
     color: rgb(255, 255, 255);
     background-size: 50px;
     text-align: center;
-    font-family: 'Playfair Display', serif;
     margin: 0;
     padding: 10px;
-
 }
 
 h2 {
@@ -54,14 +51,16 @@ h2 {
 
 }
 
-/*
+
 .banner-bottom{
     background-image: url(img/Banner_bottom.png);
     background-size: cover;
-    background-position: bottom;
+    
     padding-top: 50px;
     margin-top: 15px;
-}*/
+    position: relative;
+    z-index: 2;
+}
 
 .cont {
     position: relative;
@@ -91,14 +90,10 @@ h2 {
     text-decoration: underline;
 }
 
-
-
 @media screen and (min-width: 1400px) {
     body {
         background-color: rgb(173, 15, 178);
     }
-
-
 }
 
 .form-content {
@@ -181,4 +176,12 @@ textarea {
     form {
         width: 100%;
     }
+}
+
+.imagen{
+    transition: transform 0.2s ease;
+}
+ 
+.imagen:hover {
+    transform: scale(1.1);
 }
