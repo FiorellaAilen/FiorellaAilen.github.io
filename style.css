@@ -15,6 +15,8 @@ body {
     background-repeat: no-repeat;
     background-position: bottom center;
     padding-bottom: 5%;
+    padding: 5;
+    margin: 5;
 }
 
 h1 {
@@ -45,12 +47,12 @@ h2 {
     padding-bottom: 50px;
     margin-bottom: 15px;
 
-} 
+}
 
-.banner-bottom{
+.banner-bottom {
     background-image: url(img/Banner_bottom.png);
     background-size: cover;
-    
+
     padding-top: 50px;
     margin-top: 15px;
     position: relative;
@@ -153,7 +155,7 @@ textarea {
 
 .btn {
     cursor: pointer;
-        
+
 }
 
 .btn:hover {
@@ -174,10 +176,16 @@ textarea {
     }
 }
 
-.imagen{
+.imagen {
     transition: transform 0.2s ease;
 }
- 
+
 .imagen:hover {
     transform: scale(1.1);
+}
+
+.main-lugar{
+    padding: 15;
+    margin: 15;    
+
 }
