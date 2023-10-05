@@ -148,6 +148,11 @@ textarea {
     border-top-right-radius: 25px;
 }
 
+.check{
+    position: relative;
+
+}
+
 :focus {
     outline: 2px solid #1E92E9;
     outline-style: outset;

@@ -57,13 +57,17 @@
             <label for="subject"> Comentarios: </label>
             <textarea name="Comentarios" cols="30" rows="5" required></textarea>
 
-            <input type="checkbox" id="terms" name="term" required>
-            <label for="terms"> Acepto los terminos y condiciones</label><br>
+            <div class="check">
+                <input type="checkbox" value="terms" name="term" required>
+                <label for="terms"> Acepto los terminos y condiciones</label><br>
+            </div>
+
 
             <input class="btn" type="submit" value="Enviar">
             <!-- onclick="alert('Formulario enviado')" -->
             <p class="warnings" id="warnings"></p>
-            
+
+
         </form>
 
     </div>
