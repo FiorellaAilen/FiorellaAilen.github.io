@@ -80,3 +80,61 @@
     </script>
 </body>
 </html>
+
+
+
+<!--
+     <div id="resultado" style="display: none;"></div>
+    
+    document.addEventListener("DOMContentLoaded", function () {
+    const contactForm = document.getElementById("contactForm");
+    const resultado = document.getElementById("resultado");
+
+    contactForm.addEventListener("submit", function (event) {
+        event.preventDefault();
+
+        const nombreCompleto = document.getElementById("name").value;
+        const fechaNacimiento = document.getElementById("birthdday").value;
+        const email = document.getElementById("email").value;
+        const comentario = document.getElementById("subject").value;
+        const suscripcion = document.getElementById("terms").checked;
+
+        const emailRegex = /\S+@\S+\.\S+/;
+        const nombreRegex = /^[A-Za-z]+$/; // Expresión regular para solo letras
+
+        if (nombreCompleto.trim() === "") {
+            mostrarError("Por favor, ingresa tu nombre completo.");
+        } else if (!nombreCompleto.match(nombreRegex)) {
+            mostrarError("El nombre solo debe contener letras.");
+        } else if (fechaNacimiento === "") {
+            mostrarError("Por favor, selecciona tu fecha de nacimiento.");
+        } else if (!email.match(emailRegex)) {
+            mostrarError("Por favor, ingresa un correo electrónico válido.");
+        } else if (comentario.trim() === "") {
+            mostrarError("Por favor, ingresa un comentario.");
+        } else if (comentario.length > 150) {
+            mostrarError("El comentario no puede tener más de 150 caracteres.");
+        } else {
+            mostrarResultado(nombreCompleto, fechaNacimiento, email, comentario, suscripcion);
+        }
+    });
+
+    function mostrarError(mensaje) {
+        resultado.innerHTML = mensaje;
+        resultado.style.color = "red";
+        resultado.style.display = "block";
+    }
+
+    function mostrarResultado(nombre, fecha, email, comentario, suscripcion) {
+        resultado.innerHTML = `
+            Nombre Completo: ${nombre}<br>
+            Fecha de Nacimiento: ${fecha}<br>
+            Correo Electrónico: ${email}<br>
+            Comentarios: ${comentario}<br>
+            Terminos y Condiciones: ${terminos ? "Sí" : "No"}
+        `;
+        resultado.style.color = "green";
+        resultado.style.display = "block";
+    }
+});
+  -->
