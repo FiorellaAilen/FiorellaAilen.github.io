@@ -10,13 +10,7 @@
 
 body {
     background-color: rgb(117, 22, 165);
-    background-image: url(img/logoSanLuis.png);
-    background-size: 15%;
-    background-repeat: no-repeat;
-    background-position: bottom center;
-    padding-bottom: 5%;
-    padding: 5;
-    margin: 5;
+    
 }
 
 h1 {
@@ -44,22 +38,48 @@ h3 {
 }
 
 .banner-top {
+    width: 100%;
+    /* Ancho del banner al 100% del contenedor */
+    max-width: 100%;
+    /* Ancho máximo del banner para evitar que se expanda demasiado */
+    height: auto;
+    /* Altura automática para mantener la proporción original */
+    max-height: 100%;
+
     background-image: url(img/Banner_Top.png);
     background-size: cover;
-    background-position: top;
-    padding-bottom: 50px;
+    background-position: top;    
+    padding-bottom: 357px;
     margin-bottom: 15px;
+    display: block;  
+
+    
+    background-image: url(img/logoSanLuis.png);
+    background-size: 15%;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    padding-bottom: 5%;
+    padding: 5;
+    margin: 5;
 
 }
 
 .banner-bottom {
+    width: 100%;
+    /* Ancho del banner al 100% del contenedor */
+    max-width: 100%;
+    /* Ancho máximo del banner para evitar que se expanda demasiado */
+    height: auto;
+    /* Altura automática para mantener la proporción original */
+
     background-image: url(img/Banner_bottom.png);
     background-size: cover;
-    padding-top: 50px;
+    padding-top: 150px;
     margin-top: 15px;
     position: relative;
     z-index: 2;
 }
+
 
 .cont {
     position: relative;
