@@ -5,11 +5,11 @@
     box-sizing: border-box;
     font-family: 'Playfair Display', serif;
     font-family: 'Raleway', sans-serif;
-    color: #FFFFFF;
+    color: #FFFFFF;    
 }
 
 body {
-    background-color: rgb(117, 22, 165);
+    background-color: #85A1AC;
     background-image: url(img/logoSanLuis.png);
     background-size: 15%;
     background-repeat: no-repeat;
@@ -35,13 +35,16 @@ h2 {
 }
 
 h3 {
-    text-decoration: underline;
+    text-decoration: underline;    
+    margin-bottom: 30px;
+    display: block;  
 }
 
 .header {
     text-align: center;
 
 }
+
 /*
 .banner-top {
     width: 100%;   
@@ -101,7 +104,7 @@ h3 {
 
 @media screen and (min-width: 1400px) {
     body {
-        background-color: rgb(173, 15, 178);
+        /*background-color: rgb(173, 15, 178);*/
     }
 }
 
