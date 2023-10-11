@@ -70,6 +70,8 @@ h3 {
     background-color: #E9435E;
     width: 100%;
     height: 1px;
+    
+
 }
 
 .banner-bottom {
@@ -79,7 +81,8 @@ h3 {
     padding: 50px;
     margin: 5;
     bottom: 0;
-    margin-top: auto;
+    margin-top: 50px;
+
 }
 
 .logo-bottom {
@@ -161,6 +164,7 @@ form {
     justify-content: center;
     display: flex;
     min-height: 50vh;
+    margin: 25px;
 }
 
 label {
@@ -202,9 +206,10 @@ textarea {
     background-color: #85cacf;
 }
 
-@media(max-width: 991px) {
+@media(max-width: 1000px) {
     .main-form {
         padding: 30px;
+        
     }
 
     .form-content {
