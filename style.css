@@ -70,7 +70,6 @@ h3 {
     background-color: #E9435E;
     width: 100%;
     height: 1px;
-    
 
 }
 
@@ -209,7 +208,7 @@ textarea {
 @media(max-width: 1000px) {
     .main-form {
         padding: 30px;
-        
+
     }
 
     .form-content {
