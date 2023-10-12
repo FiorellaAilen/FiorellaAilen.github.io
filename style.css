@@ -222,6 +222,10 @@ textarea {
     }
 }
 
+.error{
+    border: 2px solid #E9435E;
+}
+
 .imagen {
     transition: transform 0.2s ease;
 }
@@ -241,4 +245,12 @@ textarea {
     text-align: center;
     margin-left: auto;
     color: #007bff;
+}
+
+.mensaje{
+    background-color: #A7DBDD;
+    display: block;
+    position: relative;
+    text-align: center;
+    box-shadow: inset;
 }

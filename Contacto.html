@@ -41,7 +41,7 @@
     <main class="main-form">
         <div class="form-content">
 
-            <form>
+            <form onsubmit="return form()" id="frm">
 
                 <h3>Formulario de contacto</h3>
 
@@ -65,7 +65,18 @@
                 <input class="btn" type="submit" id="enviar" value="Enviar">
 
             </form>
+
+            <div class="mensaje">
+                <!-- Mensaje con los datos ingresados -->
+                <p id="datos"></p>
+
+                <!-- Lista de los errores -->
+                <ul id="listaErrores">
+                </ul>
+            </div>
+
         </div>
+
     </main>
 
     <footer class="banner-bottom bb logo-bottom">
