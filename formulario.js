@@ -1,8 +1,5 @@
-// Estilo 
-<link rel='stylesheet' href="style.css" />
-
 const datos = document.getElementById("datos");
-const listaErrores = document.getElementById("ltaErrores");
+const listaErrores = document.getElementById("listaErrores");
 const enviar = document.getElementById("enviar");
 /*
 const cumple = document.getElementById("birthday");
