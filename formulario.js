@@ -1,6 +1,8 @@
 const datos = document.getElementById("datos");
 const listaErrores = document.getElementById("listaErrores");
 const enviar = document.getElementById("enviar");
+const frm = document.getElementById("frm");
+
 /*
 const cumple = document.getElementById("birthday");
 const correo = document.getElementById("email");
@@ -9,18 +11,18 @@ const comen = document.getElementById("subject");
 
 function form() {
     let name = document.getElementById("name");
-    let nombre = name.ariaValueMax.trim();
+    let nombre = name.value.trim();
     let birthday = document.getElementById("birthday");
-    let cumple = birthday.ariaValueMax.trim();
+    let cumple = birthday.value.trim();
     let email = document.getElementById("email");
-    let correo = email.ariaValueMax.trim();
+    let correo = email.value.trim();
     let terms = document.getElementById("terms");
     let term = terms.checked;
     let errores = [];
     let campo_error = null;
-    let frm = document.getElementById("frm");
+    
 
-    for (v of frm.querySelectorAll("input, textarea")) {
+    for (let v of frm.querySelectorAll("input, textarea")) {
         v.classList.remove("error");
     }
 
@@ -48,14 +50,14 @@ function form() {
         terms.parentNode.classList.add("error");
     }
 
-    if (!/^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/.test(email)) {
+    if (!/^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/.test(correo)) {
         errores.push("El correo electrónico no es válido.");
         campo_error = email;
         email.classList.add("error");
     }
 
-    /* Para que nno se repita muchas veces el mensaje */
-    listaErrores.innerHtml = "";
+    /* Para que no se repita muchas veces el mensaje */
+    listaErrores.innerHTML = "";
 
     if (errores.length > 0) {
         for (let i = 0; i < errores.length; i++) {
@@ -66,15 +68,12 @@ function form() {
 
         if (campo_error != null) {
             campo_error.focus();
+        }else {
+            let msn = `Has cargado correctamente tus datos ${nombre}`;
+            datos.innerHTML = msn;
         }
-
-        return false;
-
     }
-
-    let msn = ` Has cargado correctamente tus datos ${nombre} `;
-    datos.innerHTML = msn;
-
-    return false;
+    
+    frm.addEventListener("submit", form);
 
 }

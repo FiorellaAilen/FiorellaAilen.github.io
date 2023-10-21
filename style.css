@@ -39,6 +39,12 @@ h3 {
     box-sizing: border-box;
 }
 
+.parrafo{
+    padding: 25px;
+    margin: 0px; 
+
+}
+
 /*
 .banner-top {
     width: 100%;   
