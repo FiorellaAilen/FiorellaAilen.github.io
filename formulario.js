@@ -1,7 +1,21 @@
+//SELECCIONAR EL FORMULARIO
+const frm = document.getElementById("frm");
+
+//SELECCIONAR ELEMENTOS DEL FORMULARIO
+/*
+- .elements[] Devuelve un array con todos los input del formulario
+- getElementById("idElemento") Devuelve un elemento con un id determinado
+- getElementsByTagName("etiqueta") Devuelve un array con 
+elementos de un tipo de etiqueta (input, select, etc.)
+- getElementsByName("nombre") Devuelve un array con elementos que 
+tienen el mismo nombre(por ejemplo, radiobutton)
+*/
+
+/*
 const datos = document.getElementById("datos");
 const listaErrores = document.getElementById("listaErrores");
 const enviar = document.getElementById("enviar");
-const frm = document.getElementById("frm");
+const birthday = new Date.getElementById
 
 /*
 const cumple = document.getElementById("birthday");
@@ -10,6 +24,12 @@ const comen = document.getElementById("subject");
 */
 
 function form() {
+
+
+
+
+
+    /*
     let name = document.getElementById("name");
     let nombre = name.value.trim();
     let birthday = document.getElementById("birthday");
@@ -20,7 +40,7 @@ function form() {
     let term = terms.checked;
     let errores = [];
     let campo_error = null;
-    
+
 
     for (let v of frm.querySelectorAll("input, textarea")) {
         v.classList.remove("error");
@@ -57,6 +77,8 @@ function form() {
     }
 
     /* Para que no se repita muchas veces el mensaje */
+
+    /*
     listaErrores.innerHTML = "";
 
     if (errores.length > 0) {
@@ -68,12 +90,14 @@ function form() {
 
         if (campo_error != null) {
             campo_error.focus();
-        }else {
+        } else {
             let msn = `Has cargado correctamente tus datos ${nombre}`;
             datos.innerHTML = msn;
         }
     }
-    
+
     frm.addEventListener("submit", form);
+
+    */
 
 }

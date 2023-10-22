@@ -142,6 +142,8 @@ footer {
     }
 }
 
+/* Inicio Formulario */
+
 .form-content {
     background: linear-gradient(50deg,
             rgba(69, 186, 193, 1) 50%,
@@ -186,7 +188,8 @@ label {
 }
 
 input,
-textarea {
+textarea,
+button {
     padding: 10px 14px;
     background-color: #C0E0E2;
     border: 0;
@@ -235,7 +238,28 @@ textarea {
 .error{
     border: 2px solid #E9435E;
 }
+/*
+.mensaje{
+    background-color: #A7DBDD;
+    display: block;
+    position: relative;
+    text-align: center;
+    box-shadow: inset;
+    padding: 0;
+    margin: 0;
+}
 
+#resultado {
+    position: right;
+    text-align: center;
+    margin-left: auto;
+    color: #007bff;
+}*/
+
+/* Fin Formulario */
+
+
+/* Carrusel */
 .imagen {
     transition: transform 0.2s ease;
 }
@@ -250,17 +274,3 @@ textarea {
 
 }
 
-#resultado {
-    position: right;
-    text-align: center;
-    margin-left: auto;
-    color: #007bff;
-}
-
-.mensaje{
-    background-color: #A7DBDD;
-    display: block;
-    position: relative;
-    text-align: center;
-    box-shadow: inset;
-}
