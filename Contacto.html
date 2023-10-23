@@ -46,25 +46,36 @@
                 <h3>Formulario de contacto</h3>
 
                 <label for="name"> Nombre Completo: </label>
-                <input type="text" id="name" required>
+                <input type="text" id="name" maxlength="16" pattern="[A-Za-z]{3,15}"
+                    title="Ingrese entre 3 y 16 caracteres" required/>
 
+                <!--
                 <label for="birthday">Fecha de Nacimiento: </label>
                 <input type="date" id="birthday" required>
+                -->
+
+                <label for="age"> Edad: </label>
+                <input type="number" id="age" name="age" min="18" max="100" required/>
 
                 <label for="email"> Ingrese E-mail: </label>
-                <input type="email" id="email" required>
+                <input type="email" id="email" maxlength="50" 
+                pattern="[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]" required/>
 
                 <label for="subject"> Comentarios: </label>
-                <textarea name="Comentarios" cols="30" rows="5" id="subject" required></textarea>
+                <textarea name="Comentarios" cols="30" rows="5" id="subject" maxlength="250" required></textarea>
 
                 <div class="check">
-                    <input type="checkbox" id="terms" name="terms" required>
+                    <input type="checkbox" id="terms" name="terms" required/>
                     <label for="terms"> Acepto los terminos y condiciones</label><br>
                 </div>
 
+                <p id="error"></p>
+
                 <button class="btn" type="submit" id="enviar" value="Enviar">
-                    Enviado
+                    Enviar
                 </button>
+
+                
 
             </form>
 
