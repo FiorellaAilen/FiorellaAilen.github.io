@@ -310,6 +310,7 @@ button {
 
 .imagen {
     transition: transform 0.2s ease;    
+    size: 400px;
     
 }
 
