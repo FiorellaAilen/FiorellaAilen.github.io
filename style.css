@@ -260,17 +260,62 @@ button {
 
 
 /* Carrusel */
+
+
+.carru {
+    padding: 15px;
+    margin: 15px;
+    position: relative;
+    width: 70%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+    
+}
+
+.botones{
+    font-size: 30px;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    border-radius: 50%;
+    background-color: (0,0,0,.7);
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(255,255,255,.6);
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3 ease;
+    transition: all .3s ease;
+    z-index: 1;
+}
+
+.botones:hover{
+    cursor: pointer;
+    transform: scale(1.2,1.2);    
+}
+
+.btnatras{
+    left: 2%;
+    top: calc(50% - 70px);
+}
+
+.btnadelante{
+    right: 2%;
+    top: calc(50% - 70px);
+}
+
 .imagen {
     transition: transform 0.2s ease;
+    
+    
 }
 
 .imagen:hover {
     transform: scale(1.1);
 }
 
-.main-lugar {
-    padding: 15;
-    margin: 15;
-
-}
-
+/* Fin Carrusel */

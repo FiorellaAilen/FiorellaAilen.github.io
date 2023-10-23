@@ -4,14 +4,10 @@
 <head>
     <!-- Estilo -->
     <link rel='stylesheet' href="style.css" />
-    <!-- JavaScript -->
-    <script src="carrusel.js"></script>
+
     <!-- Icono de la pestaña -->
     <link rel="shortcut icon" href="img/ciervo (3).png" type="image/x-icon">
-    
-</head>
 
-<body>
     <!--Inicio Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,7 +16,9 @@
         rel="stylesheet">
     <!-- Fin Fonts -->
 
-    <div></div>
+</head>
+
+<body>
 
     <!-- Header -->
     <div>
@@ -35,18 +33,21 @@
     </div>
     <!-- Fin del Header -->
 
-    <main class="main-lugar">
-        <br>
-        <br>
-        <p></p>
-        <br>
-        <br>
-        <img class="imagen" src="img/carrusel_foto01.jpg" width="400px" height="auto">
-        <img class="imagen" src="img/carrusel_foto02.jpg" width="400px" height="auto">
-        <img class="imagen" src="img/carrusel_foto03.jpg" width="400px" height="auto">
-        <img class="imagen" src="img/carrusel_foto04.jpg" width="400px" height="auto">
-    
-    </main>
+    <div class="carru">
+
+        <div class="btnatras botones">
+            &#60
+        </div>
+        <div class="btnadelante botones">
+            &#62
+        </div>
+        
+        <img class="imagen" src="img/carrusel_foto01.jpg" alt="" id="imagen">
+
+    </div>
+
+    <!-- JavaScript -->
+    <script src="carrusel.js"></script>
 
     <footer class="banner-bottom bb logo-bottom">
 
