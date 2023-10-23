@@ -285,8 +285,8 @@ button {
     text-align: center;
     font-weight: bold;
     position: absolute;
-    color: #fff;
-    box-shadow: 0 0 10px rgba(255,255,255,.6);
+    color: #A7DBDD;
+    box-shadow: 0 0 10px rgba(167, 219, 221, .7);
     -webkit-transition: all .3s ease;
     -o-transition: all .3 ease;
     transition: all .3s ease;
@@ -309,8 +309,7 @@ button {
 }
 
 .imagen {
-    transition: transform 0.2s ease;
-    
+    transition: transform 0.2s ease;    
     
 }
 
