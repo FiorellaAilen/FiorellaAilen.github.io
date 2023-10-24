@@ -1,19 +1,18 @@
-const formatoemail = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
-
 
 function validar() {
 
     //Obtener los datos ingresados
     let name = document.getElementById("name");
     let nombre = name.value.trim();
-    let birthday = document.getElementById("birthday");
-    let cumple = birthday.value.trim();
+    // let birthday = document.getElementById("birthday");
+    // let cumple = birthday.value.trim();
     let age = document.getElementById("age");
     let edad = age.value.trim();
     let email = document.getElementById("email");
     let correo = email.value.trim();
     let terms = document.getElementById("terms");
     let term = terms.checked;
+    let patron = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
 
     //Validar los campos
     let valid = true;
@@ -25,14 +24,14 @@ function validar() {
     } else {
         document.querySelector('#errorname').style.display = 'none';
     }
-
-    if (cumple === "") {
-        document.querySelector('#errorbirth').style.display = 'inline';
-        birthday.focus();
-        invalid = false;
-    } else {
-        document.querySelector('#errorage').style.display = 'none';
-    }
+    /*
+        if (cumple === "") {
+            document.querySelector('#errorbirth').style.display = 'inline';
+            birthday.focus();
+            invalid = false;
+        } else {
+            document.querySelector('#errorage').style.display = 'none';
+        }*/
 
     if (edad === "") {
         document.querySelector('#errorage').style.display = 'inline';
@@ -42,7 +41,7 @@ function validar() {
         document.querySelector('#errorage').style.display = 'none';
     }
 
-    if (!formatoemail.test(correo)) {
+    if (!patron.test(correo)) {
         document.querySelector('#erroremail').style.display = 'inline';
         email.focus();
         invalid = false;
