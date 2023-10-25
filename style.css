@@ -11,12 +11,10 @@
 body {
     background-color: #85A1AC;
     min-height: 100vh;
-
 }
 
 main {
     flex: 1;
-
 }
 
 h1 {

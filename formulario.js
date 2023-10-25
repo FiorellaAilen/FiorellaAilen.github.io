@@ -1,3 +1,6 @@
+const enviar = document.getElementById("enviar");
+const datosIngresados = document.getElementById("datosIngresados");
+
 
 function validar() {
 
@@ -68,25 +71,31 @@ function validar() {
     }
 
     if (valid) {
-        document.getElementById("form-content").style.display = "none";
-        document.getElementById("confirm").style.display = "block";
-
-        // Muestra los datos ingresados
-        const datosIngresados = document.getElementById("datos-ingresados");
+        // Mostrar los datos ingresados
+        const datosIngresados = document.getElementById("datosIngresados");
         datosIngresados.style.display = "block";
 
-        // Obtén los valores de los campos y muéstralos
-        const nombreIngresado = document.getElementById("nombre-ingresado");
-        nombreIngresado.textContent = nomb;
-        const apellidoIngresado = document.getElementById("apellido-ingresado");
-        apellidoIngresado.textContent = surn;
-        const edadIngresada = document.getElementById("edad-ingresada");
-        edadIngresada.textContent = ed;
-        const emailIngresado = document.getElementById("email-ingresado");
-        emailIngresado.textContent = correo;
-        
+        // Crear elementos para mostrar los datos
+        const nombreIngresado = document.createElement("p");
+        nombreIngresado.innerHTML = ` ${nomb}`;
+        document.getElementById("nombre-ingresado").appendChild(nombreIngresado);
+
+        const apellidoIngresado = document.createElement("p");
+        apellidoIngresado.innerHTML = `${surn}`;
+        document.getElementById("apellido-ingresado").appendChild(apellidoIngresado);
+
+        const edadIngresada = document.createElement("p");
+        edadIngresada.innerHTML = ` ${ed}`;
+        document.getElementById("edad-ingresado").appendChild(edadIngresada);
+
+        const emailIngresado = document.createElement("p");
+        emailIngresado.innerHTML = ` ${correo}`;
+        document.getElementById("email-ingresado").appendChild(emailIngresado);
+    
     }
     return false;
 }
+
+
 
 
