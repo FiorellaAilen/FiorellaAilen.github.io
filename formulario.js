@@ -24,7 +24,7 @@ function validar() {
     if (nomb === "") {
         document.querySelector('#errorname').style.display = 'inline';
         nombre.focus();
-        return false;
+        valid = false;
     } else {
         document.querySelector('#errorname').style.display = 'none';
     }
@@ -32,7 +32,7 @@ function validar() {
     if (surn === "") {
         document.querySelector('#errorsurn').style.display = 'inline';
         apellido.focus();
-        return false;
+        valid = false;
     } else {
         document.querySelector('#errorsurn').style.display = 'none';
     }
@@ -44,12 +44,14 @@ function validar() {
             return false;
         } else {
             document.querySelector('#errorage').style.display = 'none';
-        }*/
+        }
+        
+    */
 
     if (ed === "" || isNaN(edad)) {
         document.querySelector('#errorage').style.display = 'inline';
         edad.focus();
-        return false;
+        valid = false;
     } else {
         document.querySelector('#errorage').style.display = 'none';
     }
@@ -57,7 +59,7 @@ function validar() {
     if (!patron.test(correo)) {
         document.querySelector('#erroremail').style.display = 'inline';
         email.focus();
-        return false;
+        valid = false;
     } else {
         document.querySelector('#erroremail').style.display = 'none';
     }
@@ -65,7 +67,7 @@ function validar() {
     if (comen === "") {
         document.querySelector('#errorcom').style.display = 'inline';
         comentario.focus();
-        return false;
+        valid = false;
     } else {
         document.querySelector('#errorcom').style.display = 'none';
     }
@@ -73,7 +75,7 @@ function validar() {
     if (!term) {
         document.querySelector('#errorcheck').style.display = 'inline';
         terms.focus();
-        return false;
+        valid = false;
     } else {
         document.querySelector('#errorcheck').style.display = 'none';
     }
