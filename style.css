@@ -226,7 +226,29 @@ button {
     display: none;
 }
 
+#datos-ingresado {
+    background-color: #f3f3f3;
+    border: 1px solid #ccc;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-50%, 0);
+}
 
+/* Estilo para los títulos (Nombre, Apellido, etc.) */
+#datos-ingresados p strong {
+    color: #333;
+}
+
+/* Estilo para los valores de los datos */
+#datos-ingresados p span {
+    color: #0070C0;
+    /* Cambia este color a tu preferencia */
+    font-weight: bold;
+}
+
+/*
 .mensaje {
     display: flex;
     justify-content: center;
@@ -237,14 +259,14 @@ button {
 
     width: 35%;
     margin: 0 auto;  
-    margin-left: 70%;
+    margin-left: 90%;
     padding: 8px 10px;
     margin-bottom: 25px;
     border-radius: 25px;
     display: none;
     box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);  
     color: #000000;
-}
+}*/
 
 /*
 #resultado {

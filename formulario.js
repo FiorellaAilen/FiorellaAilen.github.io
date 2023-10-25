@@ -6,8 +6,6 @@ function validar() {
     let nomb = nombre.value.trim();
     let apellido = document.getElementById("apellido");
     let surn = apellido.value.trim();
-    // let birthday = document.getElementById("birthday");
-    // let cumple = birthday.value.trim();
     let edad = document.getElementById("edad");
     let ed = edad.value.trim();
     let email = document.getElementById("email");
@@ -37,18 +35,7 @@ function validar() {
         document.querySelector('#errorsurn').style.display = 'none';
     }
 
-    /*
-        if (cumple === "") {
-            document.querySelector('#errorbirth').style.display = 'inline';
-            birthday.focus();
-            return false;
-        } else {
-            document.querySelector('#errorage').style.display = 'none';
-        }
-        
-    */
-
-    if (ed === "" || isNaN(edad)) {
+    if (ed === "") {
         document.querySelector('#errorage').style.display = 'inline';
         edad.focus();
         valid = false;
@@ -85,14 +72,21 @@ function validar() {
         document.getElementById("confirm").style.display = "block";
 
         // Muestra los datos ingresados
-        document.getElementById("datos-ingresados").style.display = "block";
-        document.getElementById("nombre-ingresado").textContent = nombre;
-        // document.getElementById("cumple-ingresado").textContent = cumple;
-        document.getElementById("edad-ingresada").textContent = edad;
-        document.getElementById("email-ingresado").textContent = correo;
-        return false;
-    } else {
-        return false;
-    }
+        const datosIngresados = document.getElementById("datos-ingresados");
+        datosIngresados.style.display = "block";
 
+        // Obtén los valores de los campos y muéstralos
+        const nombreIngresado = document.getElementById("nombre-ingresado");
+        nombreIngresado.textContent = nomb;
+        const apellidoIngresado = document.getElementById("apellido-ingresado");
+        apellidoIngresado.textContent = surn;
+        const edadIngresada = document.getElementById("edad-ingresada");
+        edadIngresada.textContent = ed;
+        const emailIngresado = document.getElementById("email-ingresado");
+        emailIngresado.textContent = correo;
+        
+    }
+    return false;
 }
+
+
