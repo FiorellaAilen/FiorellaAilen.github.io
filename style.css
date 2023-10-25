@@ -4,12 +4,12 @@
     margin: 0;
     font-family: 'Playfair Display', serif;
     font-family: 'Raleway', sans-serif;
-    color: #FFFFFF;
+    color: #000000;
     box-sizing: border-box;
 }
 
 body {
-    background-color: #85A1AC;
+    background-color: #e0e4cc;
     min-height: 100vh;
 }
 
@@ -18,7 +18,7 @@ main {
 }
 
 h1 {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     background-size: 50px;
     text-align: center;
     margin: 0;
@@ -50,7 +50,7 @@ h3 {
 }
 
 .banner-top {
-    background-color: #E9435E;
+    background-color: #fa6900;
     width: 100%;
     height: 1px;
     position: sticky;
@@ -58,7 +58,7 @@ h3 {
 }
 
 footer {
-    background-color: #E9435E;
+    background-color: #fa6900;
     width: 100%;
     height: 60px;
     padding: 50px;
@@ -93,7 +93,7 @@ footer {
 }
 
 .cont>a {
-    color: #FFFFFF;
+    color: #ffffff;
     font-weight: bold;
     font-family: 'Playfair Display', serif;
     text-decoration: none;
@@ -116,7 +116,7 @@ footer {
 
 .form-content {
     background: linear-gradient(50deg,
-            rgba(69, 186, 193, 1) 40%,
+            rgb(105, 210, 231, 1) 40%,
             rgba(57, 157, 162, 0.2),
             rgba(57, 157, 162, 0.2)),
         url(img/3.jpg);
@@ -131,7 +131,7 @@ footer {
 }
 
 .form-content h2 {
-    color: #FFFFFF;
+    color: #e0e4cc;
     font-family: 'Playfair Display', serif;
     font-family: 'Raleway', sans-serif;
     margin-bottom: 25px;
@@ -152,10 +152,11 @@ form {
 }
 
 label {
-    color: #FFFFFF;
+    color: #e0e4cc;
     font-family: 'Playfair Display', serif;
     font-family: 'Raleway', sans-serif;
     margin-bottom: 10px;
+    text-shadow: 0px 1px 6px rgba(0, 0, 0, 0.7);;
 }
 
 input,
@@ -207,9 +208,10 @@ button {
     }
 }
 
+/*
 .error {
     border: 2px solid #E9435E;
-}
+}*/
 
 .wrong {
     border-bottom-left-radius: 25px;
@@ -224,23 +226,25 @@ button {
     display: none;
 }
 
-#datos-ingresado {
+#datosIngresado {
     background-color: #f3f3f3;
     border: 1px solid #ccc;
     padding: 10px;
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 50px;
+    right: 50px;
     transform: translate(-50%, 0);
+    z-index: 1;
+    box-shadow: ;
 }
 
 /* Estilo para los títulos (Nombre, Apellido, etc.) */
-#datos-ingresados p strong {
-    color: #333;
+#datosIngresados p strong {
+    color: #4f4f4f;
 }
 
 /* Estilo para los valores de los datos */
-#datos-ingresados p span {
+#datosIngresados p span {
     color: #0070C0;
     /* Cambia este color a tu preferencia */
     font-weight: bold;
@@ -303,8 +307,8 @@ button {
     text-align: center;
     font-weight: bold;
     position: absolute;
-    color: #A7DBDD;
-    box-shadow: 0 0 10px rgba(167, 219, 221, .7);
+    color: #fa6900;
+    box-shadow: 0 0 10px rgb(250, 105, 0, .7);
     -webkit-transition: all .3s ease;
     -o-transition: all .3 ease;
     transition: all .3s ease;
