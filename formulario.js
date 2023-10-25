@@ -91,6 +91,10 @@ function validar() {
         const emailIngresado = document.createElement("p");
         emailIngresado.innerHTML = ` ${correo}`;
         document.getElementById("email-ingresado").appendChild(emailIngresado);
+
+        const comentarioIngresado = document.createElement("p");
+        comentarioIngresado.innerHTML = ` ${comen}`;
+        document.getElementById("comen-ingresado").appendChild(comentarioIngresado);
     
     }
     return false;
