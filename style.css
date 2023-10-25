@@ -57,10 +57,9 @@ h3 {
 
 }
 
-footer {
+.foot {
     background-color: #fa6900;
-    width: 100%;
-    
+    width: 100%;    
     padding: 50px;
     margin: 5;
     margin-top: 50px; 
@@ -127,6 +126,7 @@ footer {
     height: auto;
     border-bottom-left-radius: 25px;
     border-top-right-radius: 25px;
+    margin-bottom: 500px;
 }
 
 .form-content h2 {
