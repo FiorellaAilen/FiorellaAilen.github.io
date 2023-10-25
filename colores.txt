@@ -1,8 +1,0 @@
-#85A1AC Gris
-#E9435E Coral
-#B0EFD3 Verde opaco
-#A7F6DA Verde vivo
-#A7DBDD parecido al gris, medio celeste
-#C3DCE3 similar al gris
-#2D4A81 Azul
-#4E8B83 Verde

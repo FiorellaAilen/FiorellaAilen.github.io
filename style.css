@@ -44,9 +44,31 @@ h3 {
 }
 
 .parrafo {
-    padding: 25px;
-    margin: 0px;
+    padding: 25px;    
+    text-align: center;
+    font-size: 35px;    
+    font-weight: bolder;   
+    background-color: #232323;
 
+}
+
+.parrafo > a{
+    text-decoration: none;
+    color: #f38630;
+    text-shadow: 0 0 16px rgb(0, 0, 0, .5);
+    
+}
+
+.parrafo > a:hover{
+    color: #b1476d;
+    text-shadow: 0 0 16px;
+}
+
+.download{
+    font-size: 50px;
+    color: #b1476d;
+    font-weight: bolder;
+    font-style: oblique;
 }
 
 .banner-top {
@@ -60,10 +82,9 @@ h3 {
 .foot {
     background-color: #fa6900;
     width: 100%;
-    padding: 50px;
+    padding: 15px;
     margin: 5;
-    margin-top: 50px;
-    position: fixed;
+    margin-top: 20%;    
     bottom: 0;
     left: 0;
 }
@@ -156,7 +177,7 @@ label {
     font-family: 'Raleway', sans-serif;
     margin-bottom: 10px;
     text-shadow: 0px 1px 6px rgba(0, 0, 0, 0.7);
-    ;
+    
 }
 
 input,
@@ -318,3 +339,6 @@ button {
 }
 
 /* Fin Carrusel */
+
+/* Mapa turistico*/
+
