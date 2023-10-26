@@ -1,6 +1,6 @@
 let imagenes = ['img/carrusel_foto01.jpg',
     'img/carrusel_foto02.jpg', 'img/carrusel_foto03.jpg',
-    'img/carrusel_foto04.jpg'];
+    'img/carrusel_foto04.jpg','img/carrusel_foto05.jpg'];
 let cont = 0;
 
 function carrusel(carru) {

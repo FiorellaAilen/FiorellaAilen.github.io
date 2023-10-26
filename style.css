@@ -288,7 +288,7 @@ button {
 /* Carrusel */
 
 .carru {
-    padding: 15px;
+    padding: 7%;
     margin: 15px;
     position: relative;
     width: 100%;
@@ -323,12 +323,12 @@ button {
 }
 
 .btnatras {
-    left: 2%;
+    left: 20%;
     top: calc(50% - 70px);
 }
 
 .btnadelante {
-    right: 4%;
+    right: 22%;
     top: calc(50% - 70px);
 }
 
@@ -344,3 +344,9 @@ button {
 }
 
 /* Fin Carrusel */
+
+.pano{
+    padding-top: 15%;
+    margin: 0;
+    width: auto;
+}
