@@ -229,11 +229,6 @@ button {
     }
 }
 
-/*
-.error {
-    border: 2px solid #E9435E;
-}*/
-
 .wrong {
     border-bottom-left-radius: 25px;
     border-top-right-radius: 25px;
@@ -258,22 +253,17 @@ button {
     box-shadow: #ffffff;
 }
 
-/* Estilo para los títulos (Nombre, Apellido, etc.) */
 #datosIngresados p strong {
     color: #fa6900;
 }
 
-/* Estilo para los valores de los datos */
 #datosIngresados p span {
     color: #0070C0;
-    /* Cambia este color a tu preferencia */
     font-weight: bold;
 }
 
-
 .mensaje {
     display: flex;
-
 }
 
 /* Fin Formulario */
