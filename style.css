@@ -45,6 +45,19 @@ h3 {
     box-sizing: border-box;
 }
 
+.columna{
+    float: left;
+    width: 50%;
+    padding: 10px;
+
+}
+
+.row::after{
+    content: "";
+    display: flex;
+    clear: both;
+}
+
 .parrafo {
     margin-top: 2%;
     padding: 25px;    
