@@ -49,19 +49,16 @@ h3 {
     margin-top: 2%;
     padding: 25px;    
     text-align: center;
-    font-size: 35px;    
+    font-size: 30px;    
     font-weight: bolder;   
     background-image: url(img/Links_mapas.png);
     background-repeat: no-repeat;
-    background-position: center;
-    
-
+    background-position: center;  
 }
 
 .parrafo > a{
     text-decoration: none;
-    color: #f38630;    
-    
+    color: #f38630;       
 }
 
 .parrafo > a:hover{
@@ -70,7 +67,7 @@ h3 {
 }
 
 .download{
-    font-size: 50px;
+    font-size: 35px;
     color: #b1476d;
     font-weight: bolder;
     font-style: oblique;
@@ -81,7 +78,6 @@ h3 {
     width: 100%;
     height: 1px;
     position: sticky;
-
 }
 
 .foot {
@@ -114,7 +110,6 @@ h3 {
     padding-left: 10%;
     padding-right: 10%;
     margin-bottom: 5px;
-
 }
 
 .cont>a {
@@ -122,7 +117,6 @@ h3 {
     font-weight: bold;
     font-family: 'Playfair Display', serif;
     text-decoration: none;
-
 }
 
 .pag:hover {
