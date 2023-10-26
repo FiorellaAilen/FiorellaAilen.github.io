@@ -323,12 +323,12 @@ button {
 }
 
 .btnatras {
-    left: 20%;
+    left: 10%;
     top: calc(50% - 70px);
 }
 
 .btnadelante {
-    right: 22%;
+    right: 10%;
     top: calc(50% - 70px);
 }
 
@@ -344,9 +344,3 @@ button {
 }
 
 /* Fin Carrusel */
-
-.pano{
-    padding-top: 15%;
-    margin: 0;
-    width: auto;
-}
