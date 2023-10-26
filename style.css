@@ -261,12 +261,12 @@ button {
     top: 50%;
     left: 80%;
     transform: translate(-50%, -50%);
-    box-shadow: #000000;
+    box-shadow: #ffffff;
 }
 
 /* Estilo para los títulos (Nombre, Apellido, etc.) */
 #datosIngresados p strong {
-    color: #4f4f4f;
+    color: #fa6900;
 }
 
 /* Estilo para los valores de los datos */
@@ -287,7 +287,6 @@ button {
 
 /* Carrusel */
 
-
 .carru {
     padding: 15px;
     margin: 15px;
@@ -297,7 +296,6 @@ button {
     align-items: center;
     justify-content: center;
     display: flex;
-
 
 }
 
@@ -337,6 +335,7 @@ button {
 .imagen {
     transition: transform 0.2s ease;
     size: 400px;
+    box-shadow: 3px 5px 16px black;
 
 }
 
@@ -345,6 +344,3 @@ button {
 }
 
 /* Fin Carrusel */
-
-/* Mapa turistico*/
-
